@@ -12,7 +12,7 @@ module.exports.create = function(app){
 		});
   });
 
-  // serve up the partials folder
+  // serve up the partials folder for Angular consumption
 	app.get('/partials/:name', function (req, res) {
 		var name = req.params.name;
 		res.render('partials/' + name);

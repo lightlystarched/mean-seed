@@ -1,10 +1,12 @@
 define([
 	'angular',
-	'uiRouter',
+	'controllers',
+	'uiRouter'
 	], function(angular) {
 		'use strict';
 
 		return angular.module('basApp', [
-			'ui.router'
+			'ui.router',
+			'basApp.controllers'
 		]);
 	})

@@ -11,4 +11,11 @@ module.exports.create = function(app){
 			title: "Home"
 		});
   });
+
+  // serve up the partials folder
+	app.get('/partials/:name', function (req, res) {
+		var name = req.params.name;
+		res.render('partials/' + name);
+	});
+	
 };

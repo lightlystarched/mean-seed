@@ -19,7 +19,7 @@ define(['angular', 'app'], function(angular, app) {
 				name: 'home',
 				url: '/',
 				controller: 'HomeCtrl',
-				templateUrl: '/views/index.html'
+				templateUrl: '/partials/home'
 			}
 		};
 

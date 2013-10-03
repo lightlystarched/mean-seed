@@ -89,3 +89,97 @@ td {
 a img {
   border: none;
 }
+.color-guide {
+  float: left;
+  list-style-type: none;
+}
+.color-guide li {
+  float: left;
+  margin-left: 15px;
+  width: 15px;
+  height: 15px;
+}
+#yellow1 {
+  background: #ffe700;
+}
+#yellow2 {
+  background: #bfb130;
+}
+#yellow3 {
+  background: #a69600;
+}
+#yellow4 {
+  background: #ffed40;
+}
+#yellow5 {
+  background: #fff273;
+}
+#red1 {
+  background: #ff3100;
+}
+#red2 {
+  background: #bf4b30;
+}
+#red3 {
+  background: #a62000;
+}
+#red4 {
+  background: #ff6440;
+}
+#red5 {
+  background: #ff8e73;
+}
+#green1 {
+  background: #00aa72;
+}
+#green2 {
+  background: #207f60;
+}
+#green3 {
+  background: #006e4a;
+}
+#green4 {
+  background: #35d4a0;
+}
+#green5 {
+  background: #60d4ae;
+}
+html,
+body {
+  background-color: #000;
+  color: #fff;
+}
+h1,
+.h1 {
+  font-size: 46px;
+  font-weight: bold;
+}
+h2,
+.h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+h3,
+.h3 {
+  font-size: 31px;
+  font-weight: bold;
+}
+h4,
+.h4 {
+  font-size: 23px;
+  font-weight: bold;
+}
+h5,
+.h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+h6,
+.h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+p,
+.p {
+  font-size: 16px;
+}

@@ -1,7 +1,17 @@
-#### Hi.  
-#### Would you like to build a school?
-##### **Yes!**
+# Landing page
+Welcome to Build-a-School.  Together, we're going to try and make the school of the future more efficient, more student-friendly, and able to provide an environment within which each teacher can give their students the best learning environment possible.
 
+It's going to take a little work of course.  As you probably know, it's not easy to plan a school.
+
+But don't worry.
+
+I'll help, and it will be easier than you think.
+
+Ready to get started?
+
+** Let's go! **
+
+# Step 1
 #### Great!
 #### First, we're going to need to know a little bit about your school.
 #### How many students do you think you'll have at this school next year, on average?

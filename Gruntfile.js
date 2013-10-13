@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 				options: {
 					file: 'app.js',
 					delayTime: 1,
-					ignoredFiles: ['README.md'],
+					ignoredFiles: ['README.md', 'less/**'],
 					watchedExtensions: ['js']
 				}
 			}

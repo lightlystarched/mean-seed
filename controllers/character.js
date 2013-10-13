@@ -21,11 +21,14 @@ exports.create = function(req, res, next) {
 }
 
 exports.update = function(req, res, next) {
-	Character.findById(req.params.id, function(err, character) {
-		if(err) console.log(err);
-		character.update(req.body, function(err) {
+	Character.update({_id: req.params.id}, req.body, function(err) {
+		if (err) console.log(err);
+
+		Character.findById(req.params.id, function(err, character) {
 			if(err) console.log(err);
+
 			res.json(character);
-		});
+		})
+	})
 	});
 }

@@ -1,8 +1,7 @@
 define(['angular'], function(angular) {
 	'use strict';
 
-	return angular.module('basApp.controllers', [])
-		.controller('HomeCtrl', ['$log', '$scope', function($log, $scope) {
+	basApp.controller('HomeCtrl', ['$log', '$scope', function($log, $scope) {
 			$scope.navActive = '';
 
 			$scope.toggleNav = function() {
@@ -12,8 +11,5 @@ define(['angular'], function(angular) {
 					$scope.navActive = '';
 				}
 			};
-		}])
-		.controller('CharacterCtrl', ['$log', '$scope', function($log, $scope) {
-			$log.debug('Sketch controller loaded');
 		}]);
 });

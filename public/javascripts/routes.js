@@ -12,19 +12,29 @@ define(['angular', 'app'], function(angular, app) {
 			.when('', '/')
 			.otherwise('/');
 
+		// Describe the resolves object for loading data before state change
 		resolves = {};
 
+		// Describe the various states of the application
 		states = {
 			home: {
 				name: 'home',
 				url: '/',
 				controller: 'HomeCtrl',
 				templateUrl: '/partials/home'
+			},
+			characters: {
+				name: 'characters',
+				url: '/characters',
+				controller: 'CharacterCtrl',
+				templateUrl: '/partials/characters'
 			}
 		};
 
+		// Inject the
 		$stateProvider
-			.state(states.home);
+			.state(states.home)
+			.state(states.characters);
 
 	}]);
 });

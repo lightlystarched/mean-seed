@@ -1,0 +1,786 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "less/style.less",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/offcanvas.less",
+			"settings":
+			{
+				"buffer_size": 844,
+				"line_ending": "Unix",
+				"name": "/*"
+			}
+		},
+		{
+			"file": "views/partials/characters.jade",
+			"settings":
+			{
+				"buffer_size": 1193,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.jade",
+			"settings":
+			{
+				"buffer_size": 558,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/layout.jade",
+			"settings":
+			{
+				"buffer_size": 292,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/javascripts/controllers/HomeCtrl.js",
+			"settings":
+			{
+				"buffer_size": 324,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/javascripts/controllers.js",
+			"settings":
+			{
+				"buffer_size": 492,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/javascripts/routes.js",
+			"settings":
+			{
+				"buffer_size": 882,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".bowerrc",
+			"settings":
+			{
+				"buffer_size": 46,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "strongloop.com/node-republic/node-js-infographic",
+			"settings":
+			{
+				"buffer_size": 48,
+				"line_ending": "Unix",
+				"name": "strongloop.com/node-republic/node-js-infographic"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 838,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/less/style.less",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/stylesheets/style.css",
+			"settings":
+			{
+				"buffer_size": 120778,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 965,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jomartin/Sites/build-a-school/Gruntfile-old.js",
+		"/Users/jomartin/Sites/build-a-school/Gruntfile-concurrent.js",
+		"/Users/jomartin/Sites/build-a-school/app.js",
+		"/Users/jomartin/Sites/build-a-school/public/stylesheets/variables.styl",
+		"/Users/jomartin/Sites/build-a-school/node_modules/recess/README.md",
+		"/Users/jomartin/Sites/build-a-school/public/stylesheets/style.css",
+		"/Users/jomartin/Sites/build-a-school/package.json",
+		"/Users/jomartin/Sites/build-a-school/Gruntfile.js",
+		"/Users/jomartin/Sites/build-a-school/public/stylesheets/color-guide.less",
+		"/Users/jomartin/Sites/build-a-school/views/partials/home.jade",
+		"/Users/jomartin/Sites/build-a-school/views/index.jade",
+		"/Users/jomartin/Sites/build-a-school/public/stylesheets/dasBootstrap/main.less",
+		"/Users/jomartin/Sites/build-a-school/public/stylesheets/style.less.styl",
+		"/Users/jomartin/Sites/build-a-school/public/javascripts/main.js",
+		"/Users/jomartin/Sites/build-a-school/public/javascripts/controllers/HomeCtrl.js",
+		"/Users/jomartin/Sites/build-a-school/public/javascripts/app.js",
+		"/Users/jomartin/Sites/build-a-school/public/javascripts/controllers/SketchCtrl.js",
+		"/Users/jomartin/Sites/build-a-school/views/partials/sketch.jade",
+		"/Users/jomartin/Sites/build-a-school/public/javascripts/routes.js",
+		"/Users/jomartin/Sites/build-a-school/routes/index.js",
+		"/Users/jomartin/Sites/build-a-school/views/layout.jade",
+		"/Users/jomartin/Sites/build-a-school/node_modules/bootstrap-stylus/README.md",
+		"/Users/jomartin/Sites/build-a-school/public/stylesheets/style.styl",
+		"/Users/jomartin/Sites/nodetut/nodelingo-instagram/app.js",
+		"/Users/jomartin/Sites/test/app.js",
+		"/Users/jomartin/Sites/nodetut/nodelingo-instagram/models/user.js",
+		"/Users/jomartin/Sites/nodetut/nodelingo-instagram/views/location.jade",
+		"/Users/jomartin/Sites/nodetut/nodelingo-instagram/views/explore.jade",
+		"/Users/jomartin/Sites/nodetut/nodelingo-instagram/.bowerrc",
+		"/Users/jomartin/Sites/nodetut/nodelingo-instagram/public/stylesheets/style.css",
+		"/Users/jomartin/Sites/nodetut/nodelingo-instagram/public/stylesheets/style.styl",
+		"/Users/jomartin/Sites/nodetut/nodelingo-instagram/public/bower_components/bootstrap-stylus/README.md",
+		"/Users/jomartin/Sites/nodetut/nodelingo-instagram/node_modules/compass/README.md",
+		"/Users/jomartin/Sites/nodetut/nodelingo-instagram/public/stylesheets/style.sass",
+		"/Users/jomartin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jomartin/Sites/new-josh/component.json",
+		"/Users/jomartin/Sites/sxd-v1/app/views/schools.html",
+		"/Users/jomartin/Sites/sxd-v1/app/styles/_forms.scss",
+		"/Users/jomartin/Sites/sxd-v1/app/views/district.html",
+		"/Users/jomartin/Sites/sxd-v1/app/views/report-center.html",
+		"/Users/jomartin/Sites/sxd-v1/app/views/artifacts-library.html",
+		"/Users/jomartin/Sites/sxd-v1/app/scripts/directives/sxdModal.js",
+		"/Users/jomartin/Sites/sxd-v1/app/views/sxdFooter.html",
+		"/Users/jomartin/Sites/sxd-v1/app/scripts/directives/sxdFooter.js",
+		"/Users/jomartin/Sites/sxd-v1/app/scripts/controllers/main.js",
+		"/Users/jomartin/Sites/sxd-v1/app/styles/_variables.scss",
+		"/Users/jomartin/Sites/sxd-v1/app/bower_components/bootstrap-sass/lib/_navbar.scss",
+		"/Users/jomartin/Sites/sxd-v1/app/bower_components/bootstrap-sass/lib/_navs.scss",
+		"/Users/jomartin/Sites/sxd-v1/app/bower_components/sass-bootstrap/README.md",
+		"/Users/jomartin/Sites/sxd-v1/app/bower_components/sass-bootstrap/lib/_pager.scss",
+		"/Users/jomartin/Documents/anna-360-from-Rajan.txt",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/test/config/karma.conf.js",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/package.json",
+		"/usr/sbin/httpd",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/directives/sxdPasswordValidate.js",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Repository/SchoolRepository.php",
+		"/Users/jomartin/Sites/simschool-symfony/web/views/scenario-building.html",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/controllers/scenarioController.js",
+		"/Users/jomartin/Sites/simschool-symfony/app/Resources/views/base.html.twig",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/services/ncesService.js",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/controllers/courseController.js",
+		"/Users/jomartin/Sites/simschool-symfony/web/views/describe/course.html",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/services/pathService.js",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/controllers/demographicController.js",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/routes.js",
+		"/Users/jomartin/Sites/simschool-symfony/README.md",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/directives/sxdCard.js",
+		"/Users/jomartin/.bash_profile",
+		"/Users/jomartin/Sites/package.json",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/css/style.css",
+		"/Users/jomartin/.bashrc",
+		"/usr/local/Cellar/z/1.4/etc/profile.d/z.sh",
+		"/usr/local/Cellar/z/1.4/etc/profile.d/z-sh",
+		"/Users/jomartin/Sites/simschool-symfony/web/views/describe/demographic.html",
+		"/Users/jomartin/Sites/simschool-symfony/web/views/describe/attendance.html",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/controllers/attendanceController.js",
+		"/Users/jomartin/Sites/simschool-symfony/web/views/describe/enrollment.html",
+		"/Users/jomartin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/controllers/schoolsController.js",
+		"/Users/jomartin/Sites/simschool-symfony/web/views/my-schools.html",
+		"/Users/jomartin/Sites/simschool-symfony/src/WGen/SimschoolsBundle/Resources/assets/js/controllers/describeController.js",
+		"/usr/local/etc/php/5.4/php.ini",
+		"/private/etc/hosts",
+		"/etc/apache2/httpd.conf",
+		"/usr/local/Cellar/aws-elasticbeanstalk/2.3.1/libexec/eb/README.txt",
+		"/private/etc/php.ini",
+		"/usr/local/etc/mongod.conf",
+		"/private/etc/apache2/httpd.conf",
+		"/usr/local/Cellar/aws-elasticbeanstalk/2.3.1/README.txt",
+		"/private/etc/apache2/users/jomartin.conf",
+		"/private/var/log/apache2/error_log",
+		"/private/var/log/apache2/ssl_request_log",
+		"/private/var/log/apache2/sxd-error_log",
+		"/etc/php.ini",
+		"/etc/hosts",
+		"/Users/jomartin/Sites/test/index.php",
+		"/private/etc/httpd.conf",
+		"/Users/jomartin/.ssh/id_rsa.pub",
+		"/etc/apache2/users/jomartin.conf",
+		"/etc/apache2/users/Guest.conf",
+		"/Users/jomartin/Sites/joshuamartin/Gruntfile.js",
+		"/Users/jomartin/Sites/joshuamartin/app/styles/_joshuamartin.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";",
+			":",
+			"@",
+			"white",
+			"btn",
+			"button",
+			"white",
+			"btn-primary",
+			"color",
+			"@import \"",
+			"baseBorderRadius",
+			"border",
+			"bootstrap-sass",
+			"pills",
+			"mongo",
+			"course",
+			"$log",
+			"time",
+			"ssl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"=",
+			"",
+			"@import \"sass-bootstrap/lib/",
+			"sass-bootstrap"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "less/style.less",
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "less/offcanvas.less",
+					"settings":
+					{
+						"buffer_size": 844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								844,
+								844
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 104.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/partials/characters.jade",
+					"settings":
+					{
+						"buffer_size": 1193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								296,
+								296
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/index.jade",
+					"settings":
+					{
+						"buffer_size": 558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/layout.jade",
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/javascripts/controllers/HomeCtrl.js",
+					"settings":
+					{
+						"buffer_size": 324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/javascripts/controllers.js",
+					"settings":
+					{
+						"buffer_size": 492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								388,
+								388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/javascripts/routes.js",
+					"settings":
+					{
+						"buffer_size": 882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								869,
+								869
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": ".bowerrc",
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"settings":
+					{
+						"buffer_size": 48,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "strongloop.com/node-republic/node-js-infographic",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								680,
+								680
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "assets/less/style.less",
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								33
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "public/stylesheets/style.css",
+					"settings":
+					{
+						"buffer_size": 120778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								605,
+								605
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 239.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/jomartin/Documents/Sublime-Projects/joshuamartin.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true
+}

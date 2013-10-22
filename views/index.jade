@@ -1,23 +1,6 @@
 extends layout
 
 block content
-	div.navbar.navbar-default.navbar-inverse.navbar-fixed-top
-		div.container
-			div.navbar-header
-				button(type="button", class="navbar-toggle")
-					span.icon-bar
-					span.icon-bar
-					span.icon-bar
-				a.navbar-brand(ui-sref="home") RPG Creator
-			div.collapse.navbar-collapse
-				ul.nav.navbar-nav
-					li
-						a World
-					li
-						a(ui-sref="characters") Characters
-					li
-						a Items
-
 	div(class="container", ui-view)
 
 block scripts

@@ -13,12 +13,14 @@ And on the client-side:
 * RequireJS
 
 ## To make use of this seed:
-> git clone https://github.com/lightlystarched/mean-seed [your path]
-> cd [your path]
-> npm install && bower install
-And now you're good to go!
+> git clone https://github.com/lightlystarched/mean-seed [your folder]
 
-To run your test server and watch for changes, type:
+> cd [your folder]
+
+> npm install && bower install
+
+And now you're good to go.
+To run your test server and watch the 'less' folder for changes, type:
 > grunt
 
 Then just navigate your browser to http://localhost:3000/

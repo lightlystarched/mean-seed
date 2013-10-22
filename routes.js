@@ -8,8 +8,8 @@ module.exports = function(app) {
 	// Setup the path for the partials
 	app.get('/partials/:name', RootController.partials);
 
-	// Setup routes for Character CRUD
-	app.get('/characters', CharacterController.index);
-	app.post('/characters', CharacterController.create);
-	app.put('/characters/:id', CharacterController.update);
+	// Setup routes for Example CRUD
+	app.get('/examples', ExampleController.index);
+	app.post('/examples', ExampleController.create);
+	app.put('/examples/:id', ExampleController.update);
 }

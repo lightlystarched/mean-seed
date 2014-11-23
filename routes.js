@@ -1,12 +1,12 @@
 var controllers = require('./controllers')
 	, RootController = controllers.RootController
-	, CharacterController = controllers.CharacterController;
+	, ExampleController = controllers.ExampleController;
 
 module.exports = function(app) {
 	// Index - serves up the page that loads the angular app
 	app.get('/', RootController.index);
 	// Setup the path for the partials
-	app.get('/partials/:name', RootController.partials);
+	app.get('/client/:name', RootController.clientView);
 
 	// Setup routes for Example CRUD
 	app.get('/examples', ExampleController.index);

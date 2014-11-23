@@ -21,13 +21,13 @@ define(['angular', 'app'], function(angular, app) {
 				name: 'home',
 				url: '/',
 				controller: 'HomeCtrl',
-				templateUrl: '/partials/home'
+				templateUrl: '/client/home'
 			},
 			characters: {
 				name: 'characters',
 				url: '/characters',
 				controller: 'CharacterCtrl',
-				templateUrl: '/partials/characters'
+				templateUrl: '/client/characters'
 			}
 		};
 

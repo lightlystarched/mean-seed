@@ -51,7 +51,7 @@ This uses .jade templating for server-side template creation. Any server-side te
 This is where your stylesheets should go, making use of Less templating. If you are running the grunt server, the server will automatically watch for changes here and recompile the styles into a .css file in the **/public** folder. The project is including bootstrap as default, so you can either simply build your html using the included bootstrap utilities, or you can create your own custom styling by manipulating the .less files yourself.
 
 2. **/views/client**  
-This is where you should put any .jade files that need to be compiled and available for any client-side scripting you may be using. In your .js files you would simply reference **/client/myfile.html**, once you've created the template.
+This is where you should put any .jade files that need to be compiled and available for any client-side scripting you may be using. In your .js files you would simply reference **/client/myfile**, once you've created the template.
 
 3. **/public**  
 All of your client-side resources should be put here. When referencing them through the browser, this is the older that will be seen as root. So, for example, if you want to reference a javascript file you've created in **/public/javascripts/myScript.js**, you would reference it in your html or jade as **/javascripts/myScript.js**

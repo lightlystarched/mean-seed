@@ -1,5 +1,5 @@
 module.exports = {
 	mongodb: {
-		uri: 'your mongodb uri goes here'
+		uri: 'mongodb://rpg-admin:brzapp45@paulo.mongohq.com:10082/RpgGen'
 	}
 }

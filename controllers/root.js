@@ -1,6 +1,6 @@
 exports.index = function(req, res) {
 	res.render('index', {
-		title: 'D3 Graphing'
+		title: 'Some kind of RPG'
 	});
 }
 

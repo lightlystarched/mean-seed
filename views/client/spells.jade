@@ -1,0 +1,92 @@
+h1 Spells
+div.container
+	div.row
+		div.span12
+			h3 Filtering options
+	div.row
+		div.span12
+			button.btn(ng-click="showForm = !showForm") Show new spell form
+div.container(ng-show="showForm")
+	form.form-horizontal(novalidate, name="spellForm", ng-submit="submitSpell()")
+		fieldset
+			legend New Spell
+			div.control-group
+				label.control-label(for="spellTitle") Title
+				div.controls
+					input(type="text", name="spellTitle", ng-model="spell.title", required)
+			div.control-group
+				label.control-label(for="spellSchool") School
+				div.controls
+					input(type="text", name="spellSchool", ng-model="spell.meta.school", required)
+				label.control-label(for="spellLevel") Spell Level
+				div.controls
+					input(type="number", name="spellLevel", ng-model="spell.meta.level")
+				div.controls
+					label.checkbox Cantrip?
+						input(type="checkbox", name="cantrip", ng-model="spell.meta.cantrip")
+					label.checkbox Ritual?
+						input(type="checkbox", name="ritual", ng-model="spell.meta.ritual")
+			div.control-group
+				label.control-label Casting Time
+				div.controls
+					input(type="number", name="castingTime", ng-model="spell.casting.duration", required)
+					input(type="text", name="castingType", ng-model="spell.casting.unit", required)
+			div.control-group
+				label.control-label Range
+				div.controls
+					input(type="number", name="rangeDistance", ng-model="spell.range.distance", placeholder="Distance", required)
+					input(type="text", name="rangeUnits", ng-model="spell.range.units", placeholder="Units", required)
+			div.control-group
+				label Components
+				div.controls
+					label.checkbox Verbal
+						input(type="checkbox", name="componentsVerbal", ng-model="spell.components.verbal")
+					label.checkbox Somatic
+						input(type="checkbox", name="componentsSomatic", ng-model="spell.components.somatic")
+					label.control-label Materials
+					a.btn(ng-click="addNewInput(spell.components.materials)") Add Material
+					div.controls(ng-repeat="material in spell.components.materials track by $index")
+						input(type="text", name="spellMaterial{{$index}}", ng-model="material.text")
+			div.control-group
+				label(for="duration") Duration
+				div.controls
+					input(type="number", name="duration", ng-model="spell.duration", required)
+			div.control-group
+				label(for="description") Description
+				a.btn(ng-click="addNewInput(spell.description)") Add paragraph
+				div.controls(ng-repeat="paragraph in spell.description track by $index")
+					textarea(name="description{{$index}}", ng-model="paragraph.text")
+			button.btn(type="submit") Submit
+div.container
+	div.row(ng-repeat="spell in spells")
+		div.span12
+			h4 {{spell.title}}
+			button.btn(ng-click="editSpell(spell)") Edit
+		div.span12
+			h5
+				span(ng-show="spell.meta.level") {{spell.meta.level | formatLevel}} 
+				span {{spell.meta.school}} 
+				span(ng-show="spell.meta.cantrip") cantrip 
+				span(ng-show="spell.meta.ritual") (ritual)
+		div.span12
+			h5
+				strong Casting Time: 
+				span {{spell.casting.duration}} {{spell.casting.unit}}
+		div.span12
+			h5
+				strong Range: 
+				span {{spell.range.distance}} {{spell.range.units}}
+		div.span12
+			h5
+				strong Components: 
+				span(ng-show="spell.components.verbal") V, 
+				span(ng-show="spell.components.somatic") S, 
+				span(ng-show="spell.components.materials.length > 0") M (
+				span(ng-repeat="material in spell.components.materials") {{material.text}}
+				span(ng-show="spell.components.materials.length > 0") )
+		div.span12
+			h5
+				strong Duration: 
+				span Instantaneous
+		div.span12
+			p(ng-repeat="paragraph in spell.description", ng-bind-html="paragraph.text | trustHtml")

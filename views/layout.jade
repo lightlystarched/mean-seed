@@ -6,6 +6,13 @@ html(class="ng-app")
 		link(rel="stylesheet", href="/stylesheets/style.css")
 		script(src="/bower_components/angularjs/angular.js")
 		script(src="/bower_components/angular-ui-router/release/angular-ui-router.js")
+		script(src="/bower_components/angular-resource/angular-resource.js")
 	body(ng-app="rpgApp")
+		div.navbar
+			div.navbar-inner
+				a.brand(ng-href="/") Home
+				ul.nav
+					li
+						a(ui-sref="spells") Spells
 		block content
 		block scripts

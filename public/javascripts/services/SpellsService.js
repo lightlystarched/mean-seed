@@ -1,4 +1,4 @@
-angular.module('rpg.spells', [])
+angular.module('rpg.services')
 .factory('SpellsService', function ($resource) {
   var Spells = $resource('/api/spells/:crud/:id');
 

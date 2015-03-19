@@ -2,9 +2,8 @@
 
 angular.module('rpgApp', [
   'ui.router',
-  'ngResource',
   'rpg.controllers',
-  'rpg.spells'
+  'rpg.services'
 ])
 .config(function ($logProvider, $locationProvider, $urlRouterProvider, $stateProvider) {
   if (location.hostname === 'localhost') {
